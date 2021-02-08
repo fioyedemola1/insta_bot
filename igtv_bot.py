@@ -52,6 +52,7 @@ class InstaBot:
     def download_video(self):
         curr_wkdir= os.getcwd()
         vid_path= os.path.join(curr_wkdir,'vid_file')
+        os.makedirs(vid_path, exist_ok = True)
         downd_vid= [x for x in os.listdir(vid_path) if x.endswith('.mp4')]
         links = self.links
         if links:
