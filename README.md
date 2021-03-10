@@ -1,6 +1,6 @@
 # insta_bot
 
-##Description
+## Description
 The bot downloads videos from IGTV of a specified user
 
 ### TODO
