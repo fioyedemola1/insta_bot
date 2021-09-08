@@ -2,6 +2,10 @@ from selenium import webdriver
 import time
 import requests
 import os
+import argparse
+
+
+print(argparse())
 
 class InstaBot:
     links=[]
@@ -76,7 +80,7 @@ class InstaBot:
                         break
             
             except:
-                raise Exception('Unable to download the vidoe')
+                raise Exception('Unable to download the video')
 
 def main():
     my_bot = InstaBot()
